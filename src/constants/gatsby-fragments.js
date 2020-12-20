@@ -1,1 +1,1 @@
-// ...GatsbyImageSharpFluid
+...GatsbyImageSharpFluid

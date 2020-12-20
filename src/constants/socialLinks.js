@@ -1,29 +1,30 @@
 import React from "react"
 import {
   FaLinkedin,
-  FaDribbbleSquare,
   FaTwitterSquare,
+  FaBloggerB,
+  GoLogoGithub,
 } from "react-icons/fa"
 
 const data = [
  
   {
-    id: 2,
+    id: 1,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
     url: "https://www.linkedin.com/in/temesghentekeste/",
   },
   {
     id: 2,
-    icon: <img src="https://img.icons8.com/windows/33/000000/github.png"/>,
+    icon: <img src="https://img.icons8.com/fluent/33/000000/github.png"/>,
     url: "https://github.com/temesghentekeste",
   },
   {
     id: 3,
-    icon: <img src="https://img.icons8.com/color/33/000000/blogger.png"/>,
+    icon: <FaBloggerB className="social-icon"></FaBloggerB>,
     url: "https://uandiprogramming.blogspot.com/",
   },
   {
-    id: 5,
+    id: 4,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://www.twitter.com/temesghentekese1",
   },
@@ -31,7 +32,7 @@ const data = [
 const links = data.map(link => {
   return (
     <li key={link.id}>
-      <a href={link.url} className="social-link" target="blank">
+      <a href={link.url} className="social-link" target="_blank">
         {link.icon}
       </a>
     </li>

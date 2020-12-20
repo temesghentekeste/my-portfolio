@@ -9,6 +9,7 @@ const query = graphql`
   {
     allStrapiJobs(sort: {fields: strapiId, order: DESC}) {
       nodes {
+        strapiId
         company
         date
         position

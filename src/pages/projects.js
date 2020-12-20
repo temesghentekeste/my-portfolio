@@ -5,6 +5,7 @@ import Projects from "../components/Projects"
 // ...GatsbyImageSharpFluid
 
 const ProjectsPage = () => {
+
   return <h2>projects page</h2>
 }
 

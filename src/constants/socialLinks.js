@@ -3,7 +3,7 @@ import {
   FaLinkedin,
   FaTwitterSquare,
   FaBloggerB,
-  GoLogoGithub,
+  FaGithubSquare,
 } from "react-icons/fa"
 
 const data = [
@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    icon: <img src="https://img.icons8.com/fluent/33/000000/github.png"/>,
+    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
     url: "https://github.com/temesghentekeste",
   },
   {

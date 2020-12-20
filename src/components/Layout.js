@@ -7,7 +7,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar/>
-      <h2>layout component</h2>
       { children}
     </>
   )

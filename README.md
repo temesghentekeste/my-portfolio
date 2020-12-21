@@ -65,8 +65,9 @@ $ git clone git@github.com:temesghentekeste/my-portfolio.git
 $ cd my-portfolio
 $ gatsby develop
 ```
+3. Configure Strapi and your cloned app for cloudinary image uploading
 
- Your site is now running at `http://localhost:8000`!
+Enjoy your site at `http://localhost:8000`!
 
 
 ## ✒️  Author <a name = "author"></a>

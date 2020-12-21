@@ -5,7 +5,6 @@ import Hero from "../components/Hero"
 import Publications from "../components/Publications"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
-import Blogs from "../components/Blogs"
 export default ({data}) => {
   const { allStrapiProjects: { nodes: projects}} = data
   return (

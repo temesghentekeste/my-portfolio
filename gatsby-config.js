@@ -6,12 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
-    author: "@webdev",
-    twitterUsername: "@john_smilga",
+    title: "Temesghen Portfolio",
+    description: "This is Temesghen Portfolio Site",
+    author: "@temesghen",
+    twitterUsername: "@temesghentekes1",
     image: "/twitter-img.png",
-    siteUrl: "https://testing-strapi-gatsby-build.netlify.app",
+    siteUrl: "https://temesghen.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -38,16 +38,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Roboto`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Open Sans`,
-          },
+          `Roboto\:400,700`,
+          `Open Sans` // you can also specify font weights and styles
         ],
       },
     },

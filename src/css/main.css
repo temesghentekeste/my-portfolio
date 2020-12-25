@@ -692,7 +692,8 @@ Projects
   letter-spacing: 2px;
   font-size: 0.85rem;
 }
-.about-stack span {
+.about-stack span,
+.project-stack span {
   margin-top: 0.5rem;
 }
 .project-icon {

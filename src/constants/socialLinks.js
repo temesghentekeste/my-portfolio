@@ -7,7 +7,6 @@ import {
 } from "react-icons/fa"
 
 const data = [
- 
   {
     id: 1,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
@@ -26,7 +25,7 @@ const data = [
   {
     id: 4,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com/temesghentekese1",
+    url: "https://www.twitter.com/temesghentekes1",
   },
 ]
 const links = data.map(link => {

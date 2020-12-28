@@ -11,7 +11,7 @@ module.exports = {
     author: "@temesghen",
     twitterUsername: "@temesghentekes1",
     image: "/twitter-img.png",
-    siteUrl: "https://temesghen.netlify.app",
+    siteUrl: "http://www.temesghen.me/",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -42,7 +42,7 @@ module.exports = {
       options: {
         fonts: [
           `Roboto\:400,700`,
-          `Open Sans` // you can also specify font weights and styles
+          `Open Sans`, // you can also specify font weights and styles
         ],
       },
     },
